@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62A8B915E5788B876E2652F /* Pods_Gradients.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FEC12A2C34980BCB4A6DE /* Pods_Gradients.framework */; };
+		F10286601E7255C700AE2043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102865F1E7255C700AE2043 /* AppDelegate.swift */; };
+		F10286621E7255C700AE2043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10286611E7255C700AE2043 /* ViewController.swift */; };
+		F10286651E7255C700AE2043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10286631E7255C700AE2043 /* Main.storyboard */; };
+		F10286671E7255C700AE2043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10286661E7255C700AE2043 /* Assets.xcassets */; };
+		F102866A1E7255C700AE2043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10286681E7255C700AE2043 /* LaunchScreen.storyboard */; };
+		F10286751E7255C700AE2043 /* GradientsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10286741E7255C700AE2043 /* GradientsTests.swift */; };
+		F10286801E7255C700AE2043 /* GradientsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102867F1E7255C700AE2043 /* GradientsUITests.swift */; };
+		F102868E1E72572D00AE2043 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102868D1E72572D00AE2043 /* Color.swift */; };
+		F10286901E72574300AE2043 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102868F1E72574300AE2043 /* Font.swift */; };
+		F10286921E72576C00AE2043 /* GradientsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10286911E72576C00AE2043 /* GradientsListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10286711E7255C700AE2043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10286541E7255C700AE2043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F102865B1E7255C700AE2043;
+			remoteInfo = Gradients;
+		};
+		F102867C1E7255C700AE2043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10286541E7255C700AE2043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F102865B1E7255C700AE2043;
+			remoteInfo = Gradients;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1733004CCE31890728080EBA /* Pods-Gradients.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradients.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gradients/Pods-Gradients.release.xcconfig"; sourceTree = "<group>"; };
+		2B1060F278125AB0763239BA /* Pods-Gradients.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradients.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gradients/Pods-Gradients.debug.xcconfig"; sourceTree = "<group>"; };
+		C88FEC12A2C34980BCB4A6DE /* Pods_Gradients.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gradients.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F102865C1E7255C700AE2043 /* Gradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F102865F1E7255C700AE2043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F10286611E7255C700AE2043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F10286641E7255C700AE2043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F10286661E7255C700AE2043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10286691E7255C700AE2043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F102866B1E7255C700AE2043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10286701E7255C700AE2043 /* GradientsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10286741E7255C700AE2043 /* GradientsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsTests.swift; sourceTree = "<group>"; };
+		F10286761E7255C700AE2043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F102867B1E7255C700AE2043 /* GradientsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F102867F1E7255C700AE2043 /* GradientsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsUITests.swift; sourceTree = "<group>"; };
+		F10286811E7255C700AE2043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F102868D1E72572D00AE2043 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F102868F1E72574300AE2043 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		F10286911E72576C00AE2043 /* GradientsListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientsListCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10286591E7255C700AE2043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62A8B915E5788B876E2652F /* Pods_Gradients.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F102866D1E7255C700AE2043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10286781E7255C700AE2043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FB91152BC66F81FA1348A6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B1060F278125AB0763239BA /* Pods-Gradients.debug.xcconfig */,
+				1733004CCE31890728080EBA /* Pods-Gradients.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		964017E2D7C42495FFA00399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88FEC12A2C34980BCB4A6DE /* Pods_Gradients.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F10286531E7255C700AE2043 = {
+			isa = PBXGroup;
+			children = (
+				F102865E1E7255C700AE2043 /* Gradients */,
+				F10286731E7255C700AE2043 /* GradientsTests */,
+				F102867E1E7255C700AE2043 /* GradientsUITests */,
+				F102865D1E7255C700AE2043 /* Products */,
+				8FB91152BC66F81FA1348A6A /* Pods */,
+				964017E2D7C42495FFA00399 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F102865D1E7255C700AE2043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F102865C1E7255C700AE2043 /* Gradients.app */,
+				F10286701E7255C700AE2043 /* GradientsTests.xctest */,
+				F102867B1E7255C700AE2043 /* GradientsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F102865E1E7255C700AE2043 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				F102865F1E7255C700AE2043 /* AppDelegate.swift */,
+				F10286611E7255C700AE2043 /* ViewController.swift */,
+				F10286631E7255C700AE2043 /* Main.storyboard */,
+				F10286661E7255C700AE2043 /* Assets.xcassets */,
+				F10286681E7255C700AE2043 /* LaunchScreen.storyboard */,
+				F102866B1E7255C700AE2043 /* Info.plist */,
+				F102868D1E72572D00AE2043 /* Color.swift */,
+				F102868F1E72574300AE2043 /* Font.swift */,
+				F10286911E72576C00AE2043 /* GradientsListCell.swift */,
+			);
+			path = Gradients;
+			sourceTree = "<group>";
+		};
+		F10286731E7255C700AE2043 /* GradientsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10286741E7255C700AE2043 /* GradientsTests.swift */,
+				F10286761E7255C700AE2043 /* Info.plist */,
+			);
+			path = GradientsTests;
+			sourceTree = "<group>";
+		};
+		F102867E1E7255C700AE2043 /* GradientsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F102867F1E7255C700AE2043 /* GradientsUITests.swift */,
+				F10286811E7255C700AE2043 /* Info.plist */,
+			);
+			path = GradientsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F102865B1E7255C700AE2043 /* Gradients */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10286841E7255C700AE2043 /* Build configuration list for PBXNativeTarget "Gradients" */;
+			buildPhases = (
+				37D7B01A6B42B149A98011E4 /* [CP] Check Pods Manifest.lock */,
+				F10286581E7255C700AE2043 /* Sources */,
+				F10286591E7255C700AE2043 /* Frameworks */,
+				F102865A1E7255C700AE2043 /* Resources */,
+				D54D0AD730EFF4F7FEA927BA /* [CP] Embed Pods Frameworks */,
+				42F6FFFCB06EDF7179D29E28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gradients;
+			productName = Gradients;
+			productReference = F102865C1E7255C700AE2043 /* Gradients.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F102866F1E7255C700AE2043 /* GradientsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10286871E7255C700AE2043 /* Build configuration list for PBXNativeTarget "GradientsTests" */;
+			buildPhases = (
+				F102866C1E7255C700AE2043 /* Sources */,
+				F102866D1E7255C700AE2043 /* Frameworks */,
+				F102866E1E7255C700AE2043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10286721E7255C700AE2043 /* PBXTargetDependency */,
+			);
+			name = GradientsTests;
+			productName = GradientsTests;
+			productReference = F10286701E7255C700AE2043 /* GradientsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F102867A1E7255C700AE2043 /* GradientsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F102868A1E7255C700AE2043 /* Build configuration list for PBXNativeTarget "GradientsUITests" */;
+			buildPhases = (
+				F10286771E7255C700AE2043 /* Sources */,
+				F10286781E7255C700AE2043 /* Frameworks */,
+				F10286791E7255C700AE2043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F102867D1E7255C700AE2043 /* PBXTargetDependency */,
+			);
+			name = GradientsUITests;
+			productName = GradientsUITests;
+			productReference = F102867B1E7255C700AE2043 /* GradientsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10286541E7255C700AE2043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Clark;
+				TargetAttributes = {
+					F102865B1E7255C700AE2043 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F102866F1E7255C700AE2043 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F102865B1E7255C700AE2043;
+					};
+					F102867A1E7255C700AE2043 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F102865B1E7255C700AE2043;
+					};
+				};
+			};
+			buildConfigurationList = F10286571E7255C700AE2043 /* Build configuration list for PBXProject "Gradients" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10286531E7255C700AE2043;
+			productRefGroup = F102865D1E7255C700AE2043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F102865B1E7255C700AE2043 /* Gradients */,
+				F102866F1E7255C700AE2043 /* GradientsTests */,
+				F102867A1E7255C700AE2043 /* GradientsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F102865A1E7255C700AE2043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F102866A1E7255C700AE2043 /* LaunchScreen.storyboard in Resources */,
+				F10286671E7255C700AE2043 /* Assets.xcassets in Resources */,
+				F10286651E7255C700AE2043 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F102866E1E7255C700AE2043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10286791E7255C700AE2043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37D7B01A6B42B149A98011E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42F6FFFCB06EDF7179D29E28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradients/Pods-Gradients-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54D0AD730EFF4F7FEA927BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradients/Pods-Gradients-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10286581E7255C700AE2043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10286901E72574300AE2043 /* Font.swift in Sources */,
+				F10286621E7255C700AE2043 /* ViewController.swift in Sources */,
+				F10286601E7255C700AE2043 /* AppDelegate.swift in Sources */,
+				F102868E1E72572D00AE2043 /* Color.swift in Sources */,
+				F10286921E72576C00AE2043 /* GradientsListCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F102866C1E7255C700AE2043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10286751E7255C700AE2043 /* GradientsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10286771E7255C700AE2043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10286801E7255C700AE2043 /* GradientsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10286721E7255C700AE2043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F102865B1E7255C700AE2043 /* Gradients */;
+			targetProxy = F10286711E7255C700AE2043 /* PBXContainerItemProxy */;
+		};
+		F102867D1E7255C700AE2043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F102865B1E7255C700AE2043 /* Gradients */;
+			targetProxy = F102867C1E7255C700AE2043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F10286631E7255C700AE2043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10286641E7255C700AE2043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F10286681E7255C700AE2043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10286691E7255C700AE2043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10286821E7255C700AE2043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10286831E7255C700AE2043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10286851E7255C700AE2043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1060F278125AB0763239BA /* Pods-Gradients.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gradients/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.Gradients;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F10286861E7255C700AE2043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1733004CCE31890728080EBA /* Pods-Gradients.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gradients/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.Gradients;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F10286881E7255C700AE2043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradientsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.GradientsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradients.app/Gradients";
+			};
+			name = Debug;
+		};
+		F10286891E7255C700AE2043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradientsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.GradientsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradients.app/Gradients";
+			};
+			name = Release;
+		};
+		F102868B1E7255C700AE2043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GradientsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.GradientsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gradients;
+			};
+			name = Debug;
+		};
+		F102868C1E7255C700AE2043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GradientsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.GradientsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gradients;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10286571E7255C700AE2043 /* Build configuration list for PBXProject "Gradients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10286821E7255C700AE2043 /* Debug */,
+				F10286831E7255C700AE2043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10286841E7255C700AE2043 /* Build configuration list for PBXNativeTarget "Gradients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10286851E7255C700AE2043 /* Debug */,
+				F10286861E7255C700AE2043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10286871E7255C700AE2043 /* Build configuration list for PBXNativeTarget "GradientsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10286881E7255C700AE2043 /* Debug */,
+				F10286891E7255C700AE2043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F102868A1E7255C700AE2043 /* Build configuration list for PBXNativeTarget "GradientsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F102868B1E7255C700AE2043 /* Debug */,
+				F102868C1E7255C700AE2043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10286541E7255C700AE2043 /* Project object */;
+}
