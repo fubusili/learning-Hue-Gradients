@@ -66,6 +66,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: Color.navigationBarForeground, NSFontAttributeName: Font.navigationBar]
         navigationBar.tintColor = Color.navigationBarForeground
         navigationBar.barTintColor = UIColor(red: 0.333, green: 0.220, blue: 0.478, alpha: 1)
+        navigationBar.setBackgroundImage(UIImage(), for: .any, barMetrics: .default)
         navigationBar.shadowImage = UIImage()
     }
 
